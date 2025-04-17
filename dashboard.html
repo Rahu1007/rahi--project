@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Rahi</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+
+    <div class="flex flex-col md:flex-row h-screen">
+
+        <!-- Sidebar -->
+        <aside class="bg-yellow-500 text-white w-full md:w-64 flex-shrink-0">
+            <div class="p-4">
+                <h1 class="text-2xl font-bold">Rahi App</h1>
+                <!-- <p class="text-sm mt-2">Dashboard - Rahi</p> -->
+            </div>
+
+            <nav class="mt-6">
+                <a href="dashboard.html" class="block py-2 px-4 text-sm hover:bg-yellow-700 focus:outline-none focus:bg-yellow-700">Dashboard</a>
+                <a href="bookings.html" class="block py-2 px-4 text-sm hover:bg-yellow-700 focus:outline-none focus:bg-yellow-700">Bookings</a>
+                <a href="profile.html" class="block py-2 px-4 text-sm hover:bg-yellow-700 focus:outline-none focus:bg-yellow-700">Profile</a>
+                <a href="settings.html" class="block py-2 px-4 text-sm hover:bg-yellow-700 focus:outline-none focus:bg-yellow-700">Settings</a>
+                <a href="aboutus.html" class="block py-2 px-4 text-sm hover:bg-yellow-700 focus:outline-none focus:bg-yellow-700">About us</a>
+                <a href="contact.html" class="block py-2 px-4 text-sm hover:bg-yellow-700 focus:outline-none focus:bg-yellow-700">Contact</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-4 bg-cover" style="background-image: url('https://dialogochino.net/content/uploads/2018/04/BRT2-2.jpg');">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mb-8 bg-white bg-opacity-70 rounded-lg p-6">
+                <!-- Train Option -->
+                <div class="rounded-lg shadow-lg p-6 flex flex-col items-center justify-center bg-white bg-opacity-90">
+                    <img src="https://image.flaticon.com/icons/png/512/63/63949.png" alt="Train" class="h-16 mb-4">
+                    <h3 class="text-lg font-semibold text-yellow-600 mb-2">Train</h3>
+                    <a href="bookings.html" class="text-gray-700 text-center">Book train tickets</a>
+                </div>
+        
+                <!-- Bus Option -->
+                <div class="rounded-lg shadow-lg p-6 flex flex-col items-center justify-center bg-white bg-opacity-90">
+                    <img src="https://image.flaticon.com/icons/png/512/636/636416.png" alt="Bus" class="h-16 mb-4">
+                    <h3 class="text-lg font-semibold text-yellow-600 mb-2">Bus</h3>
+                    <a href="bookings.html" class="text-gray-700 text-center">Book bus tickets</a>
+                </div>
+        
+                <!-- Flight Option -->
+                <div class="rounded-lg shadow-lg p-6 flex flex-col items-center justify-center bg-white bg-opacity-90">
+                    <img src="https://image.flaticon.com/icons/png/512/64/64575.png" alt="Flight" class="h-16 mb-4">
+                    <h3 class="text-lg font-semibold text-yellow-600 mb-2">Flight</h3>
+                    <a href="bookings.html" class="text-gray-700 text-center">Book flight tickets</a>
+                </div>
+        
+                <!-- Metro Option -->
+                <div class="rounded-lg shadow-lg p-6 flex flex-col items-center justify-center bg-white bg-opacity-90">
+                    <img src="https://image.flaticon.com/icons/png/512/1017/1017841.png" alt="Metro" class="h-16 mb-4">
+                    <h3 class="text-lg font-semibold text-yellow-600 mb-2">Metro</h3>
+                    <a href="bookings.html" class="text-gray-700 text-center">Book metro tickets</a>
+                </div>
+        
+                <!-- Cab Option -->
+                <div class="rounded-lg shadow-lg p-6 flex flex-col items-center justify-center bg-white bg-opacity-90">
+                    <img src="https://image.flaticon.com/icons/png/512/3084/3084543.png" alt="Cab" class="h-16 mb-4">
+                    <h3 class="text-lg font-semibold text-yellow-600 mb-2">Cab</h3>
+                    <a href="bookings.html" class="text-gray-700 text-center">Book cab service</a>
+                </div>
+            </div>
+        
+            <!-- You can add more route and offer cards here -->
+        
+        </main>
+        
+    </div>
+    <footer class="bg-gray-800 text-white py-8 mt-auto">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Menu 1 -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold">About Rahi</h4>
+                    <ul class="list-none">
+                        <li><a href="#" class="hover:text-orange-500">About Us</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Our Mission</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Our Vision</a></li>
+                    </ul>
+                </div>
+                <!-- Menu 2 -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold">Services</h4>
+                    <ul class="list-none">
+                        <li><a href="#" class="hover:text-orange-500">Taxi Booking</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Train Booking</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Flight Booking</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Bus Booking</a></li>
+                    </ul>
+                </div>
+                <!-- Menu 3 -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold">Support</h4>
+                    <ul class="list-none">
+                        <li><a href="#" class="hover:text-orange-500">FAQs</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Terms & Conditions</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!-- Menu 4 -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold">Social</h4>
+                    <ul class="list-none">
+                        <li><a href="#" class="hover:text-orange-500">Facebook</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Twitter</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Instagram</a></li>
+                        <li><a href="#" class="hover:text-orange-500">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
